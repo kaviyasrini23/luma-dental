@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Luma Dental Clinic — modern dental care including cleaning, implants, whitening, orthodontics and emergency dental services." />
+  <title>Luma Dental Clinic — Your Smile, Our Priority</title>
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=DM+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Ensure hero image fits */
+    .hero-image-wrapper { width: 100%; max-width: 520px; border-radius: 24px; overflow: hidden; box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1); }
+    .hero-main-img { width: 100%; height: auto; display: block; object-fit: cover; }
+  </style>
+</head>
+<body>
+
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo" aria-label="Luma Dental Clinic home">
+        <img src="images/luma.png" alt="LumaCare logo"/>
+        <div class="logo-text">
+          <span class="logo-main">Luma</span> <span class="logo-sub">Dental Care</span>
+        </div>
+      </a>
+
+      <nav class="nav-links" id="navLinks" aria-label="Primary">
+        <a href="#home" class="nav-plain">Home</a>
+        <a href="#about" class="nav-plain">About</a>
+
+        <div class="nav-item has-drop">
+          <a href="#services" class="nav-plain drop-trigger">
+            <section class="section services" id="services">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Our Services</span>
+      <h2>Comprehensive Dental Care</h2>
+    </div>
+
+    <!-- Infinite Marquee Slider -->
+    <div class="services-marquee" aria-label="Services slider">
+      <div class="services-track">
+        <!-- Group 1 -->
+        <div class="services-group">
+          <article class="service-card glass">
+            <div class="service-image"><img src="images/dc.png" alt="Dental Cleaning"></div>
+            <h3>Dental Cleaning</h3><p>Professional care for a brighter smile.</p>
+          </article>
+          <article class="service-card glass">
+            <div class="service-image"><img src="images/df.png" alt="Dental Filling"></div>
+            <h3>Dental Filling</h3><p>Restore and protect your natural teeth.</p>
+          </article>
+          <article class="service-card glass">
+            <div class="service-image"><img src="images/rt.png" alt="Root Canal"></div>
+            <h3>Root Canal</h3><p>Painless treatment to save your teeth.</p>
+          </article>
+          <article class="service-card glass">
+            <div class="service-image"><img src="images/te.png" alt="Tooth Extraction"></div>
+            <h3>Tooth Extraction</h3><p>Safe and gentle surgical procedures.</p>
+          </article>
+          <article class="service-card glass">
+            <div class="service-image"><img src="images/emergency.jpg" alt="Emergency Care"></div>
+            <h3>Emergency Care</h3><p>Same-day relief for dental pain.</p>
+          </article>
+        </div>
+        <!-- Group 2 (Duplicate for Seamless Loop) -->
+        <div class="services-group">
+          <article class="service-card glass">
+            <div class="service-image"><img src="images/dc.png" alt="Dental Cleaning"></div>
+            <h3>Dental Cleaning</h3><p>Professional care for a brighter smile.</p>
+          </article>
+          <article class="service-card glass">
+            <div class="service-image"><img src="images/df.png" alt="Dental Filling"></div>
+            <h3>Dental Filling</h3><p>Restore and protect your natural teeth.</p>
+          </article>
+          <article class="service-card glass">
+            <div class="service-image"><img src="images/rt.png" alt="Root Canal"></div>
+            <h3>Root Canal</h3><p>Painless treatment to save your teeth.</p>
+          </article>
+          <article class="service-card glass">
+            <div class="service-image"><img src="images/te.png" alt="Tooth Extraction"></div>
+            <h3>Tooth Extraction</h3><p>Safe and gentle surgical procedures.</p>
+          </article>
+          <article class="service-card glass">
+            <div class="service-image"><img src="images/emergency.jpg" alt="Emergency Care"></div>
+            <h3>Emergency Care</h3><p>Same-day relief for dental pain.</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+        <a href="#doctors" class="nav-plain">Doctors</a>
+        <a href="#contact" class="nav-plain">Contact</a>
+        <a href="#appointment" class="btn btn-primary nav-cta">Book Appointment</a>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-orb hero-orb-1"></div>
+    <div class="hero-orb hero-orb-2"></div>
+    <div class="container hero-inner">
+      <div class="hero-content reveal">
+        <div class="hero-badge">
+          <i class="fa-solid fa-star"></i> Advanced Dentistry · Gentle Care
+
+        </div>
+        <h1>Your Smile,<br><span class="accent-grad">Our Priority</span></h1>
+        <p>Compassionate, modern dental care for the whole family. From routine cleanings to advanced implants — we keep you smiling.</p>
+        <div class="hero-buttons">
+          <a href="#appointment" class="btn btn-primary">
+            <i class="fa-solid fa-calendar-check"></i> Book Appointment
+          </a>
+       </a>
+       <a href="tel:+919876543210" class="btn btn-wa">
+       <i class="fa-solid fa-phone"></i> Call
+       </a>
+        </div>
+
+        <div class="trust-row">
+          <div class="trust-avatars">
+            <div class="t-av">AK</div>
+            <div class="t-av">MR</div>
+            <div class="t-av">PS</div>
+            <div class="t-av">+</div>
+          </div>
+          <p class="trust-text"><strong>500+</strong> happy patients trust Luma</p>
+        </div>
+      </div>
+      
+      <div class="hero-visual reveal">
+        <div class="hero-float-badge">
+          <div class="hfb-num">5.0★</div>
+          <div class="hfb-lbl">Patient Rating</div>
+        </div>
+
+        <div class="hero-image-wrapper">
+          <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=800&auto=format&fit=crop&q=80" alt="Luma Dental Clinic modern treatment room" class="hero-main-img" />
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-down" aria-label="Scroll to about">
+      <i class="fa-solid fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Who We Are</span>
+        <h2>Creating Healthy Smiles for a Better Tomorrow</h2>
+        <h2><i>Illuminate your smile</i></h2>
+      </div>
+      <div class="about-grid">
+        <div class="reveal">
+          <p class="lead">Complete dental care in Mogappair, Chennai for every stage of life — preventive, cosmetic, and restorative dentistry under one roof. Visit Al Smile Dental Care, your trusted local clinic for healthy, confident smiles.</p>
+          
+          <div class="mv">
+            <div class="mv-item">
+              <h4><i class="fa-solid fa-bullseye"></i> Our Mission</h4>
+            <p>At Luma Dental Care, our goal is to take care of your teeth with kindness and honesty. We want to help you feel confident about your smile by giving you the best, least painful dental care possible.</p>            </div>
+            <div class="mv-item">
+              <h4><i class="fa-solid fa-eye"></i> Our Vision </h4>
+   <p>We want to help our community overcome the fear of dental visits,
+by giving you the kind, gentle support you need every day,
+so we can help you build a smile you are proud to show.</p>
+            </div>
+          </div>
+        </div>
+        <div class="stats reveal">
+          <div class="stat-card"><h3 data-count="500">0</h3><p>Happy Patients</p></div>
+          <div class="stat-card"><h3 data-count="5">0</h3><p>Expert Dentists</p></div>
+          <div class="stat-card"><h3 data-count="5">0</h3><p>Years Experience</p></div>
+          <div class="stat-card"><h3 data-count="4">0</h3><p>Awards Won</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section services" id="services">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Our Services</span>
+        <h2>Comprehensive Dental Care</h2>
+      </div>
+
+      <!-- Marquee infinite slider -->
+      <div class="services-marquee reveal" aria-label="Services slider">
+        <div class="services-track" id="servicesTrack">
+          <div class="services-group">
+
+  <!-- image 1  -->
+              <article class="service-card glass">
+              <div class="service-image">
+                <img src="images/dc.png" alt="Root Canal Treatment">
+               </div>
+               <div class="service-content">
+                <h3> Dental CLeaning </h3>
+                <p>Comfort-first endodontics to save and restore damaged teeth.</p>
+               </div>
+              </article>
+<!-- image 2 -->
+            <article class="service-card glass">
+              <div class="service-image">
+                <img src="images/df.png" alt="Root Canal Treatment">
+              </div>
+              <div class="service-content">
+                <h3>Dental Filling </h3>
+                <p>Comfort-first endodontics to save and restore damaged teeth.</p>
+              </div>
+            </article>
+<!-- image 3 -->
+             <article class="service-card glass">
+              <div class="service-image">
+                <img src="images/rt.png" alt="Root Canal Treatment">
+              </div>
+              <div class="service-content">
+                <h3> Root Canal Treatement</h3>
+                <p>Comfort-first endodontics to save and restore damaged teeth.</p>
+              </div>
+            </article>
+<!-- image 4 -->
+                     <article class="service-card glass">
+              <div class="service-image">
+                <img src="images/te.png" alt="Root Canal Treatment">
+              </div>
+              <div class="service-content">
+                <h3> Tooth Exterction </h3>
+                <p>Comfort-first endodontics to save and restore damaged teeth.</p>
+              </div>
+            </article>
+<!-- image 4 -->
+                   <article class="service-card glass">
+              <div class="service-image">
+                <img src="images/rt.png" alt="Root Canal Treatment">
+              </div>
+              <div class="service-content">
+                <h3> Gum care </h3>
+                <p>Comfort-first endodontics to save and restore damaged teeth.</p>
+              </div>
+            </article>
+<!-- image 5 -->
+            <article class="service-card glass">
+              <div class="service-image">
+                <img src="images/emergemcy.jpg" alt="Emergency Care">
+              </div>
+              <h3>Emergency Care</h3>
+              <p>Same-day relief for pain, trauma, and urgent issues.</p>
+            </article>
+          </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section doctors" id="doctors">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Meet The Team</span>
+        <h2>Our Expert Dentists</h2>
+      </div>
+      <div class="grid-cards">
+        <article class="doctor-card reveal">
+          <div class="photo">
+            <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600&auto=format&fit=crop" alt="Dr. Sarah Mitchell" />
+          </div>
+          <div class="doctor-info">
+            <p class="role">Cosmetic Dentist · 12 yrs experience</p>
+            <h3>Dr. Sarah Mitchell</h3>
+            <div class="socials">
+              <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </article>
+        <article class="doctor-card reveal">
+          <div class="photo">
+            <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=600&auto=format&fit=crop" alt="Dr. James Carter" />
+          </div>
+          <div class="doctor-info">
+            <p class="role">Orthodontist · 9 yrs experience</p>
+            <h3>Dr. James Carter</h3>
+            <div class="socials">
+              <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </article>
+        <article class="doctor-card reveal">
+          <div class="photo">
+            <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=600&auto=format&fit=crop" alt="Dr. Emily Nguyen" />
+          </div>
+          <div class="doctor-info">
+            <p class="role">Implant Specialist · 15 yrs experience</p>
+            <h3>Dr. Emily Nguyen</h3>
+            <div class="socials">
+              <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section why">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Why Choose Us</span>
+        <h2>The Luma Difference</h2>
+      </div>
+      <div class="grid-cards">
+        <div class="why-card reveal">
+          <div class="why-image">
+            <img src="images/root.jpg" alt="Modern Equipment" style="height:120px; object-fit:cover; width:100%;">
+          </div>
+          <h3>Modern Equipment</h3>
+          <p>State-of-the-art tools for accurate, gentle treatment.</p>
+        </div>
+
+        <div class="why-card reveal">
+          <div class="why-icon"><i class="fa-solid fa-user-doctor"></i></div>
+          <h3>Experienced Dentists</h3>
+          <p>Board-certified specialists with decades of combined expertise.</p>
+        </div>
+
+        <div class="why-card reveal">
+          <div class="why-icon"><i class="fa-solid fa-tag"></i></div>
+          <h3>Affordable Pricing</h3>
+          <p>Transparent costs and flexible payment plans for every budget.</p>
+        </div>
+
+        <div class="why-card reveal">
+          <div class="why-icon"><i class="fa-solid fa-couch"></i></div>
+          <h3>Comfortable Environment</h3>
+          <p>A calm, modern space designed to ease dental anxiety.</p>
+        </div>
+
+        <div class="why-card reveal">
+          <div class="why-icon"><i class="fa-solid fa-shield-heart"></i></div>
+          <h3>Hygiene & Safety</h3>
+          <p>Strict sterilization and safety protocols you can trust.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section appointment" id="appointment">
+    <div class="container appt-grid">
+      <div class="reveal">
+        <span class="eyebrow">Book a Visit</span>
+        <h2>Schedule Your Appointment</h2>
+        <p class="lead">Fill out the form and our team will confirm your visit within 24 hours.</p>
+        <ul class="appt-perks">
+          <li><i class="fa-solid fa-check"></i> Same-day emergency slots</li>
+          <li><i class="fa-solid fa-check"></i> Free first consultation</li>
+        </ul>
+      </div>
+      <form class="appt-form glass reveal" id="apptForm" novalidate>
+        <div class="field">
+          <label for="name">Full Name</label>
+          <input id="name" name="name" type="text" required placeholder="Enter your name" />
+        </div>
+        <div class="field">
+          <label for="phone">Phone Number</label>
+          <input id="phone" name="phone" type="tel" required placeholder="+91 9087654321" />
+        </div>
+        <div class="field">
+          <label for="service">Service</label>
+          <select id="service" name="service" required>
+            <option value="">Select a service</option>
+            <option>Teeth Cleaning</option>
+            <option>Root Canal Treatment</option>
+            <option>Dental Implants</option>
+            <option>Teeth Whitening</option>
+            <option>Orthodontics</option>
+            <option>Emergency Dental Care</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="date">Preferred Date</label>
+          <input id="date" name="date" type="date" required />
+        </div>
+        <div class="field">
+          <label for="time">Preferred Time</label>
+          <input id="time" name="time" type="time" required />
+        </div>
+        <div class="field">
+          <label for="doctor">Preferred Doctor (optional)</label>
+          <input id="doctor" name="doctor" type="text" placeholder="e.g., Dr. Sarah Mitchell" />
+        </div>
+        <button type="submit" class="btn btn-primary full">Book Appointment</button>
+        <p class="form-msg" id="formMsg" role="status"></p>
+      </form>
+    </div>
+  </section>
+
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Contact</span>
+        <h2>Get in Touch</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <div class="contact-row">
+            <div class="contact-ic"><i class="fa-solid fa-location-dot"></i></div>
+            <div><h4>Address</h4><p>12, 24 A, Seethakathi Salai, Block 12, J J Nagar, Mogappair East, Chennai, Tamil Nadu 600037</p></div>
+          </div>
+          <div class="contact-row">
+            <div class="contact-ic"><i class="fa-solid fa-phone"></i></div>
+            <div><h4>Phone</h4><p>+91-88074 15161</p></div>
+          </div>
+          <div class="contact-row">
+            <div class="contact-ic"><i class="fa-solid fa-envelope"></i></div>
+            <div><h4>Email</h4><p>lumadentalcare@gmail.com</p></div>
+          </div>
+          <div class="contact-row">
+            <div class="contact-ic"><i class="fa-solid fa-clock"></i></div>
+            <div><h4>Hours</h4><p>Mon–Sat: 9:00 AM – 12:00 PM & 4:00 PM – 9:00 PM</p></div>
+          </div>
+        </div>
+        <div class="map reveal">
+          <iframe
+            title="Clinic location"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.2102802443123!2d80.18030662593921!3d13.085855587240145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd610a9732530cbf%3A0x7eff31a347efcd05!2sLuma%20Dental%20Care!5e0!3m2!1sen!2sin!4v1780641285649!5m2!1sen!2sin"
+            width="600"
+            height="450"
+            style="border:0;"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+           Rama Dental Care Map Interface</iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#home" class="logo logo-light">
+          <div class="logo-icon"><i class="fa-solid fa-tooth"></i></div>
+          <span>LumaCare</span>
+        </a>
+        <p>Modern dental care with a personal touch. Your smile is our priority.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#doctors">Doctors</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Teeth Cleaning</a></li>
+          <li><a href="#services">Implants</a></li>
+          <li><a href="#services">Whitening</a></li>
+          <li><a href="#services">Orthodontics</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Follow Us</h4>
+        <div class="socials light">
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+        <a href="https://wa.me/919876543210" class="footer-wa" target="_blank" rel="noopener">
+          <i class="fa-brands fa-whatsapp"></i> WhatsApp Us
+        </a>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>© <span id="year"></span> Luma Dental Clinic. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Floating Bubble Toggle Tool -->
+  <div class="wa-float" id="waFloat">
+    <div class="wa-popup" id="waPopup" role="dialog" aria-label="WhatsApp booking">
+      <button class="wa-close" id="waClose" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+      <div class="wa-popup-header">
+        <div class="wa-popup-avatar"><i class="fa-brands fa-whatsapp"></i></div>
+        <div>
+          <div class="wa-popup-name">Luma Clinic</div>
+          <div class="wa-popup-status"><span class="wa-online-dot"></span> Typically replies instantly</div>
+        </div>
+      </div>
+      <div class="wa-popup-bubble">
+        <p>👋 Hi! Ready to book your appointment?<br>Chat with us on WhatsApp — quick and easy.</p>
+      </div>
+      <a href="https://wa.me/919876543210?text=Hi!%20I'd%20like%20to%20book%20an%20appointment%20at%20Luma%20Dental%20Care." class="wa-popup-btn" target="_blank" rel="noopener">
+        <i class="fa-brands fa-whatsapp"></i> Start Conversation
+      </a>
+    </div>
+    <button class="wa-btn" id="waBtn" aria-label="Open WhatsApp chat">
+      <i class="fa-brands fa-whatsapp wa-icon-open"></i>
+      <i class="fa-solid fa-xmark wa-icon-close" style="display:none"></i>
+    </button>
+  </div>
+
+  <!-- Floating Live Reviews Widget -->
+  <div class="reviews-float glass" id="reviewsFloat" aria-live="polite" aria-label="Live patient reviews">
+    <button class="reviews-close" id="closeReviews" aria-label="Close reviews">&times;</button>
+    <div class="reviews-head">
+      <div class="reviews-title"><i class="fa-solid fa-comment-dots"></i> Our Patient Reviews</div>
+      <div class="reviews-stars" aria-hidden="true">
+        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+      </div>
+    </div>
+    <div class="reviews-viewport">
+      <div class="reviews-track" id="reviewsTrack"></div>
+    </div>
+    <a href="https://share.google/sxydjSZqj28h9Aknt" class="btn btn-glass" id="viewAllReviews" aria-label="View all reviews" target="_blank">
+      <i class="fa-regular fa-eye"></i> View All Reviews
+    </a>
+  </div>
+
+  <div class="modal-backdrop" id="confirmModal" aria-hidden="true" role="dialog" aria-label="Appointment confirmation">
+    <div class="modal glass" style="text-align: center;">
+      <button class="modal-close" id="modalClose" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+      
+      <div class="modal-hero">
+        <div class="success-check" style="margin: 0 auto 1rem auto;">
+          <svg class="checkmark" viewBox="0 0 52 52">
+            <circle class="checkmark-circle" cx="26" cy="26" r="25" fill="none"/>
+            <path class="checkmark-check" fill="none" d="M14 27 l8 8 l16 -16"/>
+          </svg>
+        </div>
+        <h3>Appointment Booked Successfully ✅</h3>
+        <p class="modal-sub">Your session details are safely locked in. See you soon!</p>
+      </div>
+
+      <div class="modal-details" style="max-width: 400px; margin: 1.5rem auto; text-align: left;">
+        <div style="display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid rgba(255,255,255,0.1);">
+          <span>Patient Name</span>
+          <strong id="mPatient">—</strong>
+        </div>
+        <div style="display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid rgba(255,255,255,0.1);">
+          <span>Appointment Date</span>
+          <strong id="mDate">—</strong>
+        </div>
+        <div style="display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid rgba(255,255,255,0.1);">
+          <span>Appointment Time</span>
+          <strong id="mTime">—</strong>
+        </div>
+        <div style="display: flex; justify-content: space-between; padding: 0.5rem 0;">
+          <span>Doctor Name</span>
+          <strong id="mDoctor">—</strong>
+        </div>
+      </div>
+
+      <div class="modal-actions" style="display: flex; gap: 1rem; justify-content: center;">
+        <button class="btn btn-primary" id="viewAppointmentBtn"><i class="fa-regular fa-calendar-check"></i> OK, Got It</button>
+        <a href="#home" class="btn btn-ghost" id="backHomeBtn"><i class="fa-solid fa-house"></i> Back to Home</a>
+      </div>
+      
+      <canvas id="confettiCanvas" class="confetti-canvas" aria-hidden="true"></canvas>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
